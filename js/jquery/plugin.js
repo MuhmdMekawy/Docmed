@@ -154,10 +154,7 @@ $(document).ready(function(){
     $('.styles .content .left').hide(500);
 
     $('.styles .content .right').click(function(){
-        $('.styles .content .left').show(500);
-    });
-    $('.styles .content .right').dblclick(function(){
-        $('.styles .content .left').hide(500);
+        $('.styles .content .left').toggle(500);
     });
 
     $('.styles .content .right').hover(function(){
