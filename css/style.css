@@ -927,6 +927,7 @@ a{
     position: fixed;
     left: -13px;
     top: 25px;
+    z-index: 9999999;
 }
 .styles .content{
     display: flex;
